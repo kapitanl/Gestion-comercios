@@ -153,6 +153,10 @@ article .comercios p{
     color: wheat;
     margin: 10px 0;
 }
+.comercios h3 a{
+    text-decoration: none;
+    color: white ;
+}
 
 article img{
     width: 150px;
