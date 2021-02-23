@@ -53,12 +53,12 @@ header h1{
 }
 
 /* nav */
-nav ul{
+nav > ul{
     list-style: none;
     display: flex;
 }
 
-nav ul li a{
+nav > ul > li > a{
     text-decoration: none;
     display: block;
     padding: 10px 20px;
@@ -68,7 +68,7 @@ nav ul li a{
     transition: background 0.6s;
 }
 
-nav ul li a:hover{
+nav > ul > li > a:hover{
     background:rgb(0, 66, 0);
 }
 
@@ -88,8 +88,13 @@ nav ul li a:hover{
     display: none;
 }
 
-.list-localidades li{
+.list-localidades > li{
     padding: 10px 0;
+    list-style: none;
+}
+
+.list-localidades > li > a{
+    text-decoration: none;
     color: white;
 }
 
